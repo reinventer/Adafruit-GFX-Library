@@ -31,3 +31,7 @@ The PRIME DIRECTIVE is to maintain backward compatibility with existing Arduino 
 Highly unlikely to merge any changes for additional or incompatible font formats (see Prime Directive above). There are already two formats and the code is quite bloaty there as it is (this also creates liabilities for tools and documentation). If you *must* have a more sophisticated font format, consider creating a fork with the features required for your project. For similar reasons, also unlikely to add any more bitmap formats, it's getting messy.
 
 Please don't reformat code for the sake of reformatting code. The resulting large "visual diff" makes it impossible to untangle actual bug fixes from merely rearranged lines.
+
+# NOTE
+Version with russian fonts.
+Only variable `font` in glcdfont.c was changed.
